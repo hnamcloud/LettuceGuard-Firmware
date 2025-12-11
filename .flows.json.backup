@@ -1,0 +1,1178 @@
+[
+    {
+        "id": "c0c2d3e7.a1b2c3",
+        "type": "tab",
+        "label": "LettuceGuard",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "group1",
+        "type": "ui_group",
+        "name": "LettuceGuard",
+        "tab": "c630b1026f3ff255",
+        "order": 1,
+        "disp": true,
+        "width": 30,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "b1e2f3g4.h5i6j7",
+        "type": "mqtt-broker",
+        "name": "HiveMQ Cloud",
+        "broker": "237def3f76ff4662a4b4c4567452c4b8.s1.eu.hivemq.cloud",
+        "port": "8883",
+        "tls": "",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": true,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "c630b1026f3ff255",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "0591e7a89c9b2a40",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "c8c27bfed8829c7a",
+        "type": "ui_spacer",
+        "z": "c0c2d3e7.a1b2c3",
+        "name": "spacer",
+        "group": "group1",
+        "order": 1,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "65a5f5d40f2a0d06",
+        "type": "ui_spacer",
+        "z": "c0c2d3e7.a1b2c3",
+        "name": "spacer",
+        "group": "group1",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "ac677b16bac3d887",
+        "type": "ui_spacer",
+        "z": "c0c2d3e7.a1b2c3",
+        "name": "spacer",
+        "group": "group1",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "a0ee0351b73e37ff",
+        "type": "ui_spacer",
+        "z": "c0c2d3e7.a1b2c3",
+        "name": "spacer",
+        "group": "group1",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "f7f06021c7f65a5d",
+        "type": "ui_spacer",
+        "z": "c0c2d3e7.a1b2c3",
+        "name": "spacer",
+        "group": "group1",
+        "order": 9,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "a0d4d28ebdbd2f83",
+        "type": "ui_spacer",
+        "z": "c0c2d3e7.a1b2c3",
+        "name": "spacer",
+        "group": "group1",
+        "order": 10,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "9fd7c9d6c99e3cd9",
+        "type": "ui_spacer",
+        "z": "c0c2d3e7.a1b2c3",
+        "name": "spacer",
+        "group": "group1",
+        "order": 11,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "0740553b1c214fc7",
+        "type": "ui_spacer",
+        "z": "c0c2d3e7.a1b2c3",
+        "name": "spacer",
+        "group": "group1",
+        "order": 12,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "5b96845f6b2f9a5a",
+        "type": "ui_spacer",
+        "z": "c0c2d3e7.a1b2c3",
+        "name": "spacer",
+        "group": "group1",
+        "order": 13,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "308f45fe285213d5",
+        "type": "ui_spacer",
+        "z": "c0c2d3e7.a1b2c3",
+        "name": "spacer",
+        "group": "group1",
+        "order": 14,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "36198d2f221c84d5",
+        "type": "ui_spacer",
+        "z": "c0c2d3e7.a1b2c3",
+        "name": "spacer",
+        "group": "group1",
+        "order": 16,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "21730b2c9f770c92",
+        "type": "ui_spacer",
+        "z": "c0c2d3e7.a1b2c3",
+        "name": "spacer",
+        "group": "group1",
+        "order": 17,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "9b08b016993f46ee",
+        "type": "ui_spacer",
+        "z": "c0c2d3e7.a1b2c3",
+        "name": "spacer",
+        "group": "group1",
+        "order": 18,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "1486830f23bd8975",
+        "type": "ui_spacer",
+        "z": "c0c2d3e7.a1b2c3",
+        "name": "spacer",
+        "group": "group1",
+        "order": 19,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "73047173fb6e0207",
+        "type": "ui_spacer",
+        "z": "c0c2d3e7.a1b2c3",
+        "name": "spacer",
+        "group": "group1",
+        "order": 20,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "3df55894b4f274ab",
+        "type": "ui_spacer",
+        "z": "c0c2d3e7.a1b2c3",
+        "name": "spacer",
+        "group": "group1",
+        "order": 21,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "2ebc7f2b46fb3023",
+        "type": "ui_spacer",
+        "z": "c0c2d3e7.a1b2c3",
+        "name": "spacer",
+        "group": "group1",
+        "order": 22,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "b99415fbf8459fb8",
+        "type": "ui_spacer",
+        "z": "c0c2d3e7.a1b2c3",
+        "name": "spacer",
+        "group": "group1",
+        "order": 23,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "05efd94ea75a8e79",
+        "type": "ui_spacer",
+        "z": "c0c2d3e7.a1b2c3",
+        "name": "spacer",
+        "group": "group1",
+        "order": 24,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "3905ed5690c39170",
+        "type": "ui_spacer",
+        "z": "c0c2d3e7.a1b2c3",
+        "name": "spacer",
+        "group": "group1",
+        "order": 25,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "757ced2e93ec060a",
+        "type": "ui_spacer",
+        "z": "c0c2d3e7.a1b2c3",
+        "name": "spacer",
+        "group": "group1",
+        "order": 27,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "ac54033d1c967788",
+        "type": "ui_spacer",
+        "z": "c0c2d3e7.a1b2c3",
+        "name": "spacer",
+        "group": "group1",
+        "order": 28,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "0d89a64daf403f9a",
+        "type": "ui_spacer",
+        "z": "c0c2d3e7.a1b2c3",
+        "name": "spacer",
+        "group": "group1",
+        "order": 29,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "ed52d0e5a2e99df9",
+        "type": "ui_spacer",
+        "z": "c0c2d3e7.a1b2c3",
+        "name": "spacer",
+        "group": "group1",
+        "order": 30,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "bc7aea52322541b9",
+        "type": "ui_spacer",
+        "z": "c0c2d3e7.a1b2c3",
+        "name": "spacer",
+        "group": "group1",
+        "order": 31,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "29836bb4d3b8c1b4",
+        "type": "ui_spacer",
+        "z": "c0c2d3e7.a1b2c3",
+        "name": "spacer",
+        "group": "group1",
+        "order": 32,
+        "width": 25,
+        "height": 1
+    },
+    {
+        "id": "bb02ba5ac94eaaf6",
+        "type": "ui_spacer",
+        "z": "c0c2d3e7.a1b2c3",
+        "name": "spacer",
+        "group": "group1",
+        "order": 34,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "cb62706d349c5454",
+        "type": "ui_spacer",
+        "z": "c0c2d3e7.a1b2c3",
+        "name": "spacer",
+        "group": "group1",
+        "order": 36,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "6e519488630ef521",
+        "type": "ui_spacer",
+        "z": "c0c2d3e7.a1b2c3",
+        "name": "spacer",
+        "group": "group1",
+        "order": 38,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "56db751e9834e106",
+        "type": "ui_spacer",
+        "z": "c0c2d3e7.a1b2c3",
+        "name": "spacer",
+        "group": "group1",
+        "order": 40,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "bbc9295ca6d075c4",
+        "type": "ui_spacer",
+        "z": "c0c2d3e7.a1b2c3",
+        "name": "spacer",
+        "group": "group1",
+        "order": 42,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "a4f49b6674abfd02",
+        "type": "ui_spacer",
+        "z": "c0c2d3e7.a1b2c3",
+        "name": "spacer",
+        "group": "group1",
+        "order": 43,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "aaf86d0d9e7ee830",
+        "type": "ui_spacer",
+        "z": "c0c2d3e7.a1b2c3",
+        "name": "spacer",
+        "group": "group1",
+        "order": 44,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "ed0d23a8b9604f13",
+        "type": "ui_spacer",
+        "z": "c0c2d3e7.a1b2c3",
+        "name": "spacer",
+        "group": "group1",
+        "order": 45,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "10181ec85eadcedc",
+        "type": "ui_spacer",
+        "z": "c0c2d3e7.a1b2c3",
+        "name": "spacer",
+        "group": "group1",
+        "order": 46,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "65b6e3cba72297fb",
+        "type": "ui_spacer",
+        "z": "c0c2d3e7.a1b2c3",
+        "name": "spacer",
+        "group": "group1",
+        "order": 47,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "e84b741d7178ae80",
+        "type": "ui_spacer",
+        "z": "c0c2d3e7.a1b2c3",
+        "name": "spacer",
+        "group": "group1",
+        "order": 49,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "9f190cda54bb2253",
+        "type": "ui_spacer",
+        "z": "c0c2d3e7.a1b2c3",
+        "name": "spacer",
+        "group": "group1",
+        "order": 50,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "d7dc93e85d03b612",
+        "type": "ui_spacer",
+        "z": "c0c2d3e7.a1b2c3",
+        "name": "spacer",
+        "group": "group1",
+        "order": 51,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "2ea1150927f78c0b",
+        "type": "ui_spacer",
+        "z": "c0c2d3e7.a1b2c3",
+        "name": "spacer",
+        "group": "group1",
+        "order": 52,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "ee5dfc52c9c97d25",
+        "type": "ui_spacer",
+        "z": "c0c2d3e7.a1b2c3",
+        "name": "spacer",
+        "group": "group1",
+        "order": 53,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "726c5cfb8bcb896e",
+        "type": "ui_spacer",
+        "z": "c0c2d3e7.a1b2c3",
+        "name": "spacer",
+        "group": "group1",
+        "order": 54,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "bc3b9dd4f97aad08",
+        "type": "ui_spacer",
+        "z": "c0c2d3e7.a1b2c3",
+        "name": "spacer",
+        "group": "group1",
+        "order": 55,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "49e318788f233686",
+        "type": "ui_spacer",
+        "z": "c0c2d3e7.a1b2c3",
+        "name": "spacer",
+        "group": "group1",
+        "order": 56,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "8ab965f4cae636a4",
+        "type": "ui_spacer",
+        "z": "c0c2d3e7.a1b2c3",
+        "name": "spacer",
+        "group": "group1",
+        "order": 57,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "0c3b26caa7cc71ef",
+        "type": "ui_spacer",
+        "z": "c0c2d3e7.a1b2c3",
+        "name": "spacer",
+        "group": "group1",
+        "order": 58,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "eab7ce3f780dc23c",
+        "type": "ui_spacer",
+        "z": "c0c2d3e7.a1b2c3",
+        "name": "spacer",
+        "group": "group1",
+        "order": 59,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "f50e6c69eb5b95bd",
+        "type": "ui_spacer",
+        "z": "c0c2d3e7.a1b2c3",
+        "name": "spacer",
+        "group": "group1",
+        "order": 60,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "d17d0276cd25b5bb",
+        "type": "ui_spacer",
+        "z": "c0c2d3e7.a1b2c3",
+        "name": "spacer",
+        "group": "group1",
+        "order": 61,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "8f3f708197d201cd",
+        "type": "ui_spacer",
+        "z": "c0c2d3e7.a1b2c3",
+        "name": "spacer",
+        "group": "group1",
+        "order": 62,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "a108ce524f5b7e69",
+        "type": "ui_spacer",
+        "z": "c0c2d3e7.a1b2c3",
+        "name": "spacer",
+        "group": "group1",
+        "order": 63,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "mqtt_in",
+        "type": "mqtt in",
+        "z": "c0c2d3e7.a1b2c3",
+        "name": "LettuceGuard Status",
+        "topic": "lettuceguard/status",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "b1e2f3g4.h5i6j7",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 110,
+        "y": 200,
+        "wires": [
+            [
+                "prepare_data",
+                "4f39003b2b572d8d"
+            ]
+        ]
+    },
+    {
+        "id": "prepare_data",
+        "type": "function",
+        "z": "c0c2d3e7.a1b2c3",
+        "name": "Chuẩn bị dữ liệu",
+        "func": "// Chuẩn bị dữ liệu sạch 100% cho gauge, email, LCD – không bao giờ lỗi nữa!\nconst p = msg.payload;\n\n// Chuyển sang số và làm tròn đẹp\nmsg.humidity = parseFloat(p.humidity || 0).toFixed(1);\nmsg.light = parseFloat(p.light || 0);\nmsg.airTemp = parseFloat(p.airTemp || 0).toFixed(1);\nmsg.stress = parseFloat(p.stress || 0).toFixed(1);\nmsg.mode = p.mode || \"UNKNOWN\";\n\n// Bonus: tạo thêm msg để hiển thị ánh sáng dạng k lx (tránh lỗi gauge)\nmsg.lightText = msg.light >= 10000\n    ? (msg.light / 1000).toFixed(1) + \"k lx\"\n    : msg.light + \" lx\";\n// === CHUẨN BỊ CHO CHART (4 đường) ===\nmsg.topic = \"humidity\";     msg.payload = parseFloat(msg.humidity);   node.send({...msg, topic: \"humidity\"});\nmsg.topic = \"light\";        msg.payload = parseFloat(msg.light);      node.send({...msg, topic: \"light\"});\nmsg.topic = \"airTemp\";      msg.payload = parseFloat(msg.airTemp);    node.send({...msg, topic: \"airTemp\"});\nmsg.topic = \"stress\";       msg.payload = parseFloat(msg.stress);     node.send({...msg, topic: \"stress\"});\n\n// Trả về msg gốc cho gauge + email\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 200,
+        "wires": [
+            [
+                "humi_gauge",
+                "light_gauge",
+                "temp_gauge",
+                "stress_gauge",
+                "mode_text",
+                "email_check",
+                "654fb649e2e6772f",
+                "3d6ed5d09d16fdea",
+                "12ebab7cd64db708"
+            ]
+        ]
+    },
+    {
+        "id": "humi_gauge",
+        "type": "ui_gauge",
+        "z": "c0c2d3e7.a1b2c3",
+        "name": "Độ ẩm đất",
+        "group": "group1",
+        "order": 2,
+        "width": 5,
+        "height": 5,
+        "gtype": "gage",
+        "title": "Độ ẩm đất",
+        "label": "%",
+        "format": "{{msg.humidity}} %",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "40",
+        "seg2": "70",
+        "diff": false,
+        "className": "",
+        "x": 590,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "light_gauge",
+        "type": "ui_gauge",
+        "z": "c0c2d3e7.a1b2c3",
+        "name": "Ánh sáng",
+        "group": "group1",
+        "order": 4,
+        "width": 5,
+        "height": 5,
+        "gtype": "gage",
+        "title": "Ánh sáng",
+        "label": "lux",
+        "format": "{{msg.lightText}}",
+        "min": 0,
+        "max": "60000",
+        "colors": [
+            "#0094ff",
+            "#00ff00",
+            "#ff0000"
+        ],
+        "seg1": "10000",
+        "seg2": "40000",
+        "diff": false,
+        "className": "",
+        "x": 580,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "temp_gauge",
+        "type": "ui_gauge",
+        "z": "c0c2d3e7.a1b2c3",
+        "name": "Nhiệt độ",
+        "group": "group1",
+        "order": 6,
+        "width": 5,
+        "height": 5,
+        "gtype": "gage",
+        "title": "Nhiệt độ môi trường",
+        "label": "°C",
+        "format": "{{msg.airTemp}} °C",
+        "min": "10",
+        "max": "50",
+        "colors": [
+            "#0094ff",
+            "#00ff00",
+            "#ff0000"
+        ],
+        "seg1": "20",
+        "seg2": "30",
+        "diff": false,
+        "className": "",
+        "x": 580,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "stress_gauge",
+        "type": "ui_gauge",
+        "z": "c0c2d3e7.a1b2c3",
+        "name": "Stress Index",
+        "group": "group1",
+        "order": 8,
+        "width": 5,
+        "height": 5,
+        "gtype": "gage",
+        "title": "Stress Index",
+        "label": "%",
+        "format": "{{msg.stress}} %",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00ff00",
+            "#ffff00",
+            "#ff0000"
+        ],
+        "seg1": "40",
+        "seg2": "70",
+        "diff": false,
+        "className": "",
+        "x": 590,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "mode_text",
+        "type": "ui_text",
+        "z": "c0c2d3e7.a1b2c3",
+        "group": "group1",
+        "order": 15,
+        "width": 5,
+        "height": 1,
+        "name": "Chế độ",
+        "label": "Chế độ hiện tại",
+        "format": "<b>{{msg.mode}}</b>",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "x": 580,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "switch_mode",
+        "type": "ui_switch",
+        "z": "c0c2d3e7.a1b2c3",
+        "name": "Chế độ",
+        "label": "TỰ ĐỘNG / THỦ CÔNG",
+        "tooltip": "",
+        "group": "group1",
+        "order": 26,
+        "width": 5,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "lettuceguard/control",
+        "topicType": "str",
+        "onvalue": "\"AUTO\"",
+        "onvalueType": "str",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "\"MANUAL\"",
+        "offvalueType": "str",
+        "officon": "",
+        "offcolor": "",
+        "animate": true,
+        "className": "",
+        "x": 780,
+        "y": 220,
+        "wires": [
+            [
+                "mqtt_out"
+            ]
+        ]
+    },
+    {
+        "id": "pump_on",
+        "type": "ui_button",
+        "z": "c0c2d3e7.a1b2c3",
+        "name": "BƠM BẬT",
+        "group": "group1",
+        "order": 33,
+        "width": 5,
+        "height": 1,
+        "passthru": false,
+        "label": "BƠM BẬT",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "#ff4444",
+        "className": "",
+        "icon": "",
+        "payload": "\"PUMP_ON\"",
+        "payloadType": "str",
+        "topic": "lettuceguard/control",
+        "topicType": "str",
+        "x": 780,
+        "y": 280,
+        "wires": [
+            [
+                "mqtt_out"
+            ]
+        ]
+    },
+    {
+        "id": "pump_off",
+        "type": "ui_button",
+        "z": "c0c2d3e7.a1b2c3",
+        "name": "BƠM TẮT",
+        "group": "group1",
+        "order": 48,
+        "width": 5,
+        "height": 1,
+        "passthru": false,
+        "label": "BƠM TẮT",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "#888888",
+        "className": "",
+        "icon": "",
+        "payload": "\"PUMP_OFF\"",
+        "payloadType": "str",
+        "topic": "lettuceguard/control",
+        "topicType": "str",
+        "x": 780,
+        "y": 340,
+        "wires": [
+            [
+                "mqtt_out"
+            ]
+        ]
+    },
+    {
+        "id": "mqtt_out",
+        "type": "mqtt out",
+        "z": "c0c2d3e7.a1b2c3",
+        "name": "Gửi lệnh điều khiển",
+        "topic": "lettuceguard/control",
+        "qos": "0",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "b1e2f3g4.h5i6j7",
+        "x": 1250,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "email_check",
+        "type": "function",
+        "z": "c0c2d3e7.a1b2c3",
+        "name": "Gửi email khi stress cao",
+        "func": "if (msg.stress >= 70) {\n    msg.to = \"hnam04@gmail.com\";\n    msg.topic = \"CẢNH BÁO: CÂY ĐANG STRESS NẶNG!\";\n    msg.payload = `Độ ẩm: ${msg.humidity}%\\nÁnh sáng: ${msg.light} lux\\nNhiệt độ: ${msg.airTemp}°C\\nStress: ${msg.stress}%`;\n    return msg;\n}\nreturn null;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 630,
+        "y": 580,
+        "wires": [
+            [
+                "email_node"
+            ]
+        ]
+    },
+    {
+        "id": "email_node",
+        "type": "e-mail",
+        "z": "c0c2d3e7.a1b2c3",
+        "server": "smtp.gmail.com",
+        "port": "465",
+        "authtype": "BASIC",
+        "saslformat": false,
+        "token": "oauth2Response.access_token",
+        "secure": true,
+        "tls": false,
+        "name": "phamnhumanh1405@gmail.com",
+        "dname": "LettuceGuard Alert",
+        "x": 850,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "4f39003b2b572d8d",
+        "type": "debug",
+        "z": "c0c2d3e7.a1b2c3",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 320,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "654fb649e2e6772f",
+        "type": "ui_chart",
+        "z": "c0c2d3e7.a1b2c3",
+        "name": "",
+        "group": "group1",
+        "order": 35,
+        "width": 5,
+        "height": 5,
+        "label": "Độ ẩm đất",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 590,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3d6ed5d09d16fdea",
+        "type": "ui_chart",
+        "z": "c0c2d3e7.a1b2c3",
+        "name": "",
+        "group": "group1",
+        "order": 37,
+        "width": 5,
+        "height": 5,
+        "label": "Ánh sáng",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 580,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "12ebab7cd64db708",
+        "type": "ui_chart",
+        "z": "c0c2d3e7.a1b2c3",
+        "name": "",
+        "group": "group1",
+        "order": 39,
+        "width": 5,
+        "height": 5,
+        "label": "Nhiệt độ",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 580,
+        "y": 360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "373aaa62a53f82fe",
+        "type": "ui_chart",
+        "z": "c0c2d3e7.a1b2c3",
+        "name": "",
+        "group": "group1",
+        "order": 41,
+        "width": 5,
+        "height": 5,
+        "label": "Stress Index",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 590,
+        "y": 460,
+        "wires": [
+            []
+        ]
+    }
+]
