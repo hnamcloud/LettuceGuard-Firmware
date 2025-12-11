@@ -1,5 +1,12 @@
 # LettuceGuard v2 — Hệ thống giám sát và tưới tự động cho rau xà lách
 
+## Thông tin sinh viên
+- **Họ tên:** Phạm Như Mạnh  
+- **MSSV:** 22001334  
+- **Lớp:** K67- Kỹ thuật điện tử và tin học  
+- **Email:** phamnhumanh_t67@hus.edu.vn
+
+---
 ## 1. Giới thiệu dự án
 LettuceGuard v2 là dự án hệ thống giám sát và tưới tự động cho mô hình trồng xà lách trong nhà/thủy canh/khay đất nhỏ. Hệ thống sử dụng các cảm biến môi trường để đo **độ ẩm đất**, **cường độ ánh sáng**, và **nhiệt độ không khí**, sau đó tính toán một chỉ số **stress (căng thẳng của cây)** nhằm đánh giá tình trạng hiện tại của cây. Khi stress vượt ngưỡng, hệ thống sẽ **tự động bật bơm** trong chế độ AUTO.
 
