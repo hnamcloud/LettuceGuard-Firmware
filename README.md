@@ -71,7 +71,7 @@ MANUAL cho phép bật/tắt bơm thủ công.
 ---
 
 ## 5. Lưu đồ thuật toán (flowchart)
-*images/flow_loop.png*
+
 
 ```
 client.connected? --> reconnect nếu mất
