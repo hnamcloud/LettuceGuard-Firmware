@@ -72,36 +72,13 @@ MANUAL cho phép bật/tắt bơm thủ công.
 
 ## 5. Lưu đồ thuật toán (flowchart)
 
-
-```
-client.connected? --> reconnect nếu mất
-↓
-5 giây chưa trôi qua? → quay lại
-↓
-readAllSensors()
-↓
-calculateStress()
-↓
-autoMode?
-    NO → publish + LCD
-    YES → stress >= 70?
-            YES → pumpOn()
-            NO → nếu pump chạy >15s → pumpOff()
-↓
-publishStatus()
-↓
-updateLCD()
-```
-
----
-
-## 6. Hình ảnh sản phẩm
+### ● Lưu đồ Setup
+![Flowchart Setup](images/flow_setup.png)
 
 ### ● Lưu đồ Setup
 ![Flowchart Setup](images/flow_setup.png)
 
-### ● Lưu đồ Loop
-![Flowchart Loop](images/flow_loop.png)
+## 6. Hình ảnh sản phẩm
 
 ### ● Giao diện Dashboard
 ![Dashboard](images/dashboard.png)
